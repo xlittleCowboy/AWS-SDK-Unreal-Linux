@@ -1,0 +1,704 @@
+src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/ub_core.cpp.o: \
+ /home/secondson/Projects/aws-sdk-cpp-all/build/src/aws-cpp-sdk-core/ub_core.cpp \
+ /usr/include/stdc-predef.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/AWSCredentialsProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/AWSCredentialsProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/Core_EXPORTS.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/SDKConfig.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/UnreferencedParam.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/DateTime.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSString.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSAllocator.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/AWSMemory.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/MemorySystemInterface.h \
+ /usr/include/c++/13/cstdlib \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+ /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/13/bits/std_abs.h /usr/include/assert.h \
+ /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
+ /usr/include/c++/13/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+ /usr/include/c++/13/bits/new_allocator.h /usr/include/c++/13/new \
+ /usr/include/c++/13/bits/exception.h \
+ /usr/include/c++/13/bits/functexcept.h \
+ /usr/include/c++/13/bits/exception_defines.h \
+ /usr/include/c++/13/bits/move.h /usr/include/c++/13/type_traits \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/bits/stl_construct.h \
+ /usr/include/c++/13/bits/stl_iterator_base_types.h \
+ /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/13/bits/concept_check.h \
+ /usr/include/c++/13/debug/assertions.h \
+ /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/bits/utility.h \
+ /usr/include/c++/13/ext/numeric_traits.h \
+ /usr/include/c++/13/bits/cpp_type_traits.h \
+ /usr/include/c++/13/ext/type_traits.h \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_algobase.h \
+ /usr/include/c++/13/bits/stl_iterator.h \
+ /usr/include/c++/13/bits/ptr_traits.h /usr/include/c++/13/debug/debug.h \
+ /usr/include/c++/13/bits/predefined_ops.h \
+ /usr/include/c++/13/ext/alloc_traits.h \
+ /usr/include/c++/13/bits/alloc_traits.h \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bit \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/13/bits/uses_allocator.h \
+ /usr/include/c++/13/bits/unique_ptr.h /usr/include/c++/13/tuple \
+ /usr/include/c++/13/bits/invoke.h \
+ /usr/include/c++/13/bits/stl_function.h \
+ /usr/include/c++/13/backward/binders.h \
+ /usr/include/c++/13/bits/functional_hash.h \
+ /usr/include/c++/13/bits/hash_bytes.h \
+ /usr/include/c++/13/bits/shared_ptr.h /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/bits/stringfwd.h /usr/include/c++/13/bits/postypes.h \
+ /usr/include/c++/13/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h /usr/include/c++/13/typeinfo \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/bits/refwrap.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/exception \
+ /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13/bits/nested_exception.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/backward/auto_ptr.h /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/initializer_list /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/StlAllocator.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/Allocator.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/common.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/build/crt/aws-crt-cpp/crt/aws-c-common/generated/include/aws/common/config.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/allocator.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/macros.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/stdbool.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/stdint.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/assert.h \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/13/stdlib.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/error.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/package.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/error.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/platform.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/predicates.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/zero.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/zero.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/Exports.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/string /usr/include/c++/13/bits/char_traits.h \
+ /usr/include/c++/13/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+ /usr/include/c++/13/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
+ /usr/include/ctype.h /usr/include/c++/13/bits/ostream_insert.h \
+ /usr/include/c++/13/bits/cxxabi_forced.h \
+ /usr/include/c++/13/bits/range_access.h \
+ /usr/include/c++/13/bits/basic_string.h \
+ /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdio \
+ /usr/include/c++/13/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/13/bits/charconv.h \
+ /usr/include/c++/13/bits/basic_string.tcc \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/StringUtils.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/LogMacros.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/LogLevel.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/AWSLogging.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/LogSystemInterface.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStringStream.h \
+ /usr/include/c++/13/sstream /usr/include/c++/13/istream \
+ /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
+ /usr/include/c++/13/bits/locale_classes.h \
+ /usr/include/c++/13/bits/locale_classes.tcc \
+ /usr/include/c++/13/system_error \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+ /usr/include/c++/13/stdexcept /usr/include/c++/13/streambuf \
+ /usr/include/c++/13/bits/streambuf.tcc \
+ /usr/include/c++/13/bits/basic_ios.h \
+ /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+ /usr/include/c++/13/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+ /usr/include/c++/13/bits/locale_facets.tcc \
+ /usr/include/c++/13/bits/basic_ios.tcc /usr/include/c++/13/ostream \
+ /usr/include/c++/13/bits/ostream.tcc \
+ /usr/include/c++/13/bits/istream.tcc \
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/chrono \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/cstdint /usr/include/c++/13/limits \
+ /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSMap.h \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/cstring \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/threading/ReaderWriterLock.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/threading/Semaphore.h \
+ /usr/include/c++/13/mutex /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /usr/include/c++/13/condition_variable /usr/include/c++/13/atomic \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/internal/AWSHttpResourceClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/ClientConfiguration.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/Region.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/HttpTypes.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSList.h \
+ /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
+ /usr/include/c++/13/bits/list.tcc \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/Scheme.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/Version.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/Array.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSVector.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/Types.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/Optional.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/TypeTraits.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/Utility.h \
+ /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/StringView.h \
+ /usr/include/c++/13/cassert /usr/include/c++/13/iterator \
+ /usr/include/c++/13/bits/stream_iterator.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/socket.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/channel.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/io.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/byte_buf.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/array_list.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/math.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/math.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/math.gcc_builtin.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/math.gcc_overflow.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/array_list.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/byte_order.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/byte_order.inl \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/linked_list.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/linked_list.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/statistics.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/task_scheduler.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/priority_queue.h \
+ /usr/include/x86_64-linux-gnu/sys/un.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-mqtt/include/aws/mqtt/mqtt.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/logging.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/atomics.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/atomics.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/atomics_gnu.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/atomics_fallback.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/thread.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/string.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/string.inl \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-mqtt/include/aws/mqtt/exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/StringUtils.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/TelemetryProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/Smithy_EXPORTS.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/TracerProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/Tracer.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/TraceSpan.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/MeterProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/Meter.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/Gauge.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/MonotonicCounter.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/UpDownCounter.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/Histogram.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSErrorMarshaller.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSError.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/HttpResponse.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/HttpRequest.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/URI.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStreamFwd.h \
+ /usr/include/c++/13/iostream \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/stream/ResponseStream.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/UUID.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/monitoring/HttpClientMetrics.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/CoreErrors.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/xml/XmlSerializer.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/Outcome.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/json/JsonSerializer.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/external/cjson/cJSON.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/AWSCredentials.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/UserAgent.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/RetryStrategy.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSSet.h \
+ /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /usr/include/c++/13/unordered_set \
+ /usr/include/c++/13/bits/unordered_set.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/AmazonWebServiceResult.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/AWSProfileConfigLoader.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/AWSProfileConfig.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/AWSProfileConfigLoaderBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/AWSConfigFileProfileConfigLoader.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/EC2InstanceProfileConfigLoader.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/ConfigAndCredentialsCacheManager.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/GeneralHTTPCredentialsProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/platform/Environment.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/platform/FileSystem.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/platform/OSVersionInfo.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/FileSystemUtils.h \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/climits \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/AWSCredentialsProviderChain.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/AWSCredentialsProviderChain.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/LoginCredentialsProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/CrtCredentialsProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/SSOCredentialsProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/bearer-token-provider/SSOBearerTokenProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/bearer-token-provider/AWSBearerTokenProviderBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/AWSBearerToken.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/STSCredentialsProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/CrtCredentialsProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/auth/Credentials.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/http/HttpConnection.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-http/include/aws/http/connection.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-http/include/aws/http/http.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-http/include/aws/http/exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-http/include/aws/http/proxy.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/ref_count.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/shutdown_types.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-http/include/aws/http/request_response.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/future.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-http/include/aws/http/status_code.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/io/Bootstrap.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/io/EventLoopGroup.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/event_loop.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/io/HostResolver.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/host_resolver.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/channel_bootstrap.h \
+ /usr/include/c++/13/future /usr/include/c++/13/bits/atomic_futex.h \
+ /usr/include/c++/13/bits/std_thread.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/io/SocketOptions.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/io/TlsOptions.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/io/ChannelHandler.h \
+ /usr/include/c++/13/cstddef \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/tls_channel_handler.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/GeneralHTTPCredentialsProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/Api.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/crypto/HMAC.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-cal/include/aws/cal/hmac.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-cal/include/aws/cal/exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/crypto/Hash.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-cal/include/aws/cal/hash.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/mqtt/Mqtt5Client.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/mqtt/Mqtt5Types.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-mqtt/include/aws/mqtt/v5/mqtt5_client.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/retry_strategy.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-mqtt/include/aws/mqtt/v5/mqtt5_types.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/mqtt/MqttClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/mqtt/MqttConnection.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/mqtt/MqttTypes.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-mqtt/include/aws/mqtt/client.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/hash_table.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/LoginCredentialsProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/Globals.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/SSOCredentialsProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/SpecifiedRetryableErrorsRetryStrategy.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/DefaultRetryStrategy.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/HashingUtils.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/STSCredentialsProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/bearer-token-provider/DefaultBearerTokenProviderChain.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/bearer-token-provider/DefaultBearerTokenProviderChain.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/bearer-token-provider/AWSBearerTokenProviderChainBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/bearer-token-provider/SSOBearerTokenProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer-provider/AWSAuthSignerProviderBase.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer-provider/AWSAuthSignerProviderBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer-provider/BearerTokenAuthSignerProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer-provider/BearerTokenAuthSignerProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer/AWSAuthBearerSigner.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer/AWSAuthSignerBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer/AWSNullSigner.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer-provider/DefaultAuthSignerProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer-provider/DefaultAuthSignerProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer/AWSAuthV4Signer.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/Sha256.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/Hash.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/HashResult.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/Sha256HMAC.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/HMAC.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/internal/AWSEndpointAttribute.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/auth/Sigv4Signing.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/DateTime.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/date_time.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/auth/Signing.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-auth/include/aws/auth/signing_config.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-auth/include/aws/auth/auth.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-auth/include/aws/auth/exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/logging.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-sdkutils/include/aws/sdkutils/sdkutils.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-sdkutils/include/aws/sdkutils/exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer/AWSAuthEventStreamV4Signer.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer/AWSAuthBearerSigner.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer/AWSAuthEventStreamV4Signer.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer/AWSAuthSignerCommon.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/signer/AWSAuthSignerHelper.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/stream/PreallocatedStreamBuf.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventMessage.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventHeader.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-event-stream/include/aws/event-stream/event_stream.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-event-stream/include/aws/event-stream/event_stream_exports.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/http/HttpRequestResponse.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/io/Stream.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/RefCounted.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-io/include/aws/io/stream.h \
+ /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer/AWSAuthSignerCommon.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer/AWSAuthSignerHelper.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer/AWSAuthV4Signer.cpp \
+ /usr/include/c++/13/numeric /usr/include/c++/13/bits/stl_numeric.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/auth/signer/AWSNullSigner.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AWSErrorMarshaller.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/cbor/CborValue.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/cbor/Cbor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-common/include/aws/common/cbor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AWSUrlPresigner.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSUrlPresigner.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/AmazonWebServiceRequest.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/RequestCompression.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/AWSAuthSigner.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/EndpointParameter.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/auth/AuthSchemeOption.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/Variant.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/AWSEndpoint.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/auth/AWSAuthSignerProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/features/UserAgentInterceptor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/interceptor/Interceptor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/interceptor/InterceptorContext.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSJsonClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSProtocolClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/TracingUtils.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSRpcV2CborClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AWSXmlClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/HttpClientFactory.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AdaptiveRetryStrategy.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AdaptiveRetryStrategy.h \
+ /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/13/thread /usr/include/c++/13/bits/this_thread_sleep.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AsyncCallerContext.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/AsyncCallerContext.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/monitoring/MonitoringManager.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/monitoring/CoreMetrics.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/ClientConfiguration.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/Version.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/defaults/ClientConfigurationDefaults.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/threading/Executor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/threading/DefaultExecutor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/threading/PooledThreadExecutor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSQueue.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSDeque.h \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/queue \
+ /usr/include/c++/13/bits/stl_queue.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/build/crt/aws-crt-cpp/generated/include/aws/crt/Config.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/NoopTelemetryProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/NoopTracerProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/tracing/NoopMeterProvider.h \
+ /usr/include/c++/13/array /usr/include/c++/13/compare \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/CoreErrors.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/DefaultRetryStrategy.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/GenericClientConfiguration.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/client/GenericClientConfiguration.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/RequestCompression.cpp \
+ /usr/include/zlib.h /usr/include/zconf.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/RetryStrategy.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/SpecifiedRetryableErrorsRetryStrategy.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/UserAgent.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/config/AWSConfigFileProfileConfigLoader.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSArray.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/config/AWSProfileConfigLoaderBase.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/config/ConfigAndCredentialsCacheManager.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/config/EC2InstanceProfileConfigLoader.cpp \
+ /usr/include/c++/13/random /usr/include/c++/13/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
+ /usr/include/c++/13/bits/random.tcc \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/config/EndpointResolver.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/config/EndpointResolver.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/config/defaults/ClientConfigurationDefaults.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/endpoint/AWSEndpoint.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/DNS.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/endpoint/AWSPartitions.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/AWSPartitions.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/endpoint/BuiltInParameters.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/BuiltInParameters.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/endpoint/ClientContextParameters.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/ClientContextParameters.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/endpoint/DefaultEndpointProvider.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/DefaultEndpointProvider.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/endpoint/EndpointProviderBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/endpoints/RuleEngine.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/endpoint/EndpointProviderBase.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/endpoint/internal/AWSEndpointAttribute.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/external/tinyxml2/tinyxml2.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/external/tinyxml2/tinyxml2.h \
+ /usr/include/c++/13/cstdarg \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/http/standard/StandardHttpRequest.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/standard/StandardHttpRequest.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/http/standard/StandardHttpResponse.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/standard/StandardHttpResponse.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/platform/linux-shared/Environment.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/platform/linux-shared/FileSystem.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/platform/Platform.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/platform/Android.h \
+ /usr/include/pwd.h /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+ /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+ /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
+ /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/platform/linux-shared/OSVersionInfo.cpp \
+ /usr/include/x86_64-linux-gnu/sys/utsname.h \
+ /usr/include/x86_64-linux-gnu/bits/utsname.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/platform/linux-shared/Security.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/platform/Security.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/platform/linux-shared/Time.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/platform/Time.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/smithy/client/AwsSmithyClientBase.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/AwsSmithyClientBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/identity/AwsIdentity.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/features/ChecksumInterceptor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/CRC32.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/CRC.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/checksum/CRC.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/CRC64.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/MD5.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/PrecalculatedHash.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/Sha1.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/features/ChunkingInterceptor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/FutureOutcome.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/NoResult.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/http/HttpClient.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/AwsSmithyClientAsyncRequestContext.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/auth/AuthSchemeResolverBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/signer/AwsSignerBase.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/features/RecursionDetection.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/features/RequestPayloadCompression.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/client/common/AwsSmithyClientUtils.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/signer/built-in/SignerProperties.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/ErrorMacros.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/RAIICounter.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/threading/SameThreadExecutor.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/auth/built-in/GenericAuthSchemeResolver.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/smithy/identity/AuthSchemeOption.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/auth/built-in/SigV4AuthSchemeOption.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/auth/built-in/SigV4aAuthSchemeOption.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/auth/built-in/NoAuthSchemeOption.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/smithy/identity/auth/built-in/BearerTokenAuthSchemeOption.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/smithy/tracing/TracingUtils.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/base64/Base64.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/base64/Base64.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/component-registry/ComponentRegistry.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/component-registry/ComponentRegistry.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/crypto/crt/CRTHMAC.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/crt/CRTHMAC.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/crypto/crt/CRTHash.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/crt/CRTHash.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/crypto/crt/CRTSecureRandomBytes.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/crt/CRTSecureRandom.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/SecureRandom.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/crypto/SecureRandom.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/crypto/crt/CRTSymmetricCipher.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/crt/CRTSymmetricCipher.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/Cipher.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/include/aws/crt/crypto/SymmetricCipher.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-cal/include/aws/cal/symmetric_cipher.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/crt/aws-crt-cpp/crt/aws-c-cal/include/aws/cal/cal.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/AWSLogging.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/AWSStack.h \
+ /usr/include/c++/13/stack /usr/include/c++/13/bits/stl_stack.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/CRTLogSystemInterface.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/CRTLogSystem.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/DefaultCRTLogSystem.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/CRTLogging.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/CRTLogging.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/ConsoleLogSystem.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/ConsoleLogSystem.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/FormattedLogSystem.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/DefaultCRTLogSystem.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/DefaultLogSystem.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/logging/DefaultLogSystem.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/FormattedLogSystem.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/logging/LogLevel.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/memory/AWSMemory.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/memory/stl/SimpleStringStream.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/memory/stl/SimpleStringStream.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/stream/SimpleStreamBuf.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/stream/ConcurrentStreamBuf.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/stream/ConcurrentStreamBuf.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/stream/PreallocatedStreamBuf.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/stream/ResponseStream.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/stream/SimpleStreamBuf.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/threading/DefaultExecutor.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/threading/ThreadTask.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/threading/PooledThreadExecutor.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/threading/ReaderWriterLock.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/threading/SameThreadExecutor.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/threading/Semaphore.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/threading/ThreadTask.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/utils/xml/XmlSerializer.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AWSClient.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/EnumParseOverflowContainer.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/crypto/Factories.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventStream.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventDecoderStream.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventStreamBuf.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventStreamDecoder.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventStreamHandler.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventStreamErrors.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventEncoderStream.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/include/aws/core/utils/event/EventStreamEncoder.h \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AWSJsonClient.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AWSRpcV2CborClient.cpp \
+ /home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/src/aws-cpp-sdk-core/source/client/AWSXmlClient.cpp

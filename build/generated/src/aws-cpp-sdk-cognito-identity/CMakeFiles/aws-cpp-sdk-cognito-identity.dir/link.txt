@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaws-cpp-sdk-cognito-identity.a "CMakeFiles/aws-cpp-sdk-cognito-identity.dir/ub_COGNITO-IDENTITY.cpp.o"
+/usr/bin/ranlib libaws-cpp-sdk-cognito-identity.a

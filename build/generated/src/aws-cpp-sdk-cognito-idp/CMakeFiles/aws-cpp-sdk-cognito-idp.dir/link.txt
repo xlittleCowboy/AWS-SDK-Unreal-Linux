@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaws-cpp-sdk-cognito-idp.a "CMakeFiles/aws-cpp-sdk-cognito-idp.dir/ub_COGNITO-IDP.cpp.o"
+/usr/bin/ranlib libaws-cpp-sdk-cognito-idp.a

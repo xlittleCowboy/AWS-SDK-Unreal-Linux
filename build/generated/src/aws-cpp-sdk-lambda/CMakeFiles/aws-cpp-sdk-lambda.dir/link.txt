@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaws-cpp-sdk-lambda.a "CMakeFiles/aws-cpp-sdk-lambda.dir/ub_LAMBDA.cpp.o"
+/usr/bin/ranlib libaws-cpp-sdk-lambda.a
