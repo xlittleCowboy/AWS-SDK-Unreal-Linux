@@ -61,7 +61,7 @@ add_library(AWS::aws-c-common STATIC IMPORTED)
 
 set_target_properties(AWS::aws-c-common PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "pthread;dl;m;Threads::Threads;rt;dl"
+  INTERFACE_LINK_LIBRARIES "dl;m;Threads::Threads;rt;dl"
 )
 
 # Load information for each installed configuration.

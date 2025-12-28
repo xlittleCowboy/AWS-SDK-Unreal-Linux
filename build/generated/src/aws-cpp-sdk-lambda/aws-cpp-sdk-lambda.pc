@@ -3,7 +3,7 @@ libdir=lib
 
 Name: aws-cpp-sdk-lambda
 Description: 
-Version: 1.11.717
+Version: 1.11.718
 Cflags: -I${includedir} -fno-exceptions -std=c++11 -fPIC
 Libs: -L${libdir} -laws-cpp-sdk-lambda 
 Libs.private: 

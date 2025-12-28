@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "6.14.0-37-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-
+include("/home/secondson/Projects/aws-sdk-cpp-all/toolchain.cmake")
 
 set(CMAKE_SYSTEM "Linux-6.14.0-37-generic")
 set(CMAKE_SYSTEM_NAME "Linux")

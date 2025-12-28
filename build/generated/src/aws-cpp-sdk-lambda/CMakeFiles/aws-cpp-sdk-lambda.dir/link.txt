@@ -1,2 +1,2 @@
-/usr/bin/ar qc libaws-cpp-sdk-lambda.a "CMakeFiles/aws-cpp-sdk-lambda.dir/ub_LAMBDA.cpp.o"
-/usr/bin/ranlib libaws-cpp-sdk-lambda.a
+/home/secondson/Programs/UE_5.7/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/llvm-ar qc libaws-cpp-sdk-lambda.a "CMakeFiles/aws-cpp-sdk-lambda.dir/ub_LAMBDA.cpp.o"
+/home/secondson/Programs/UE_5.7/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/llvm-ranlib libaws-cpp-sdk-lambda.a

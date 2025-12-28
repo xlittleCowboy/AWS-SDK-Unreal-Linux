@@ -59,9 +59,9 @@ endif()
 add_library(aws-cpp-sdk-core STATIC IMPORTED)
 
 set_target_properties(aws-cpp-sdk-core PROPERTIES
-  INTERFACE_COMPILE_DEFINITIONS "AWS_SDK_VERSION_MAJOR=1;AWS_SDK_VERSION_MINOR=11;AWS_SDK_VERSION_PATCH=717"
+  INTERFACE_COMPILE_DEFINITIONS "AWS_SDK_VERSION_MAJOR=1;AWS_SDK_VERSION_MINOR=11;AWS_SDK_VERSION_PATCH=718"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:pthread>;/usr/lib/x86_64-linux-gnu/libcurl.so;AWS::aws-crt-cpp;AWS::aws-c-http;AWS::aws-c-mqtt;AWS::aws-c-cal;AWS::aws-c-auth;AWS::aws-c-common;AWS::aws-c-io;AWS::aws-checksums;AWS::aws-c-event-stream;AWS::aws-c-s3;AWS::aws-c-compression;AWS::aws-c-sdkutils;AWS::aws-crt-cpp;\$<LINK_ONLY:ZLIB::ZLIB>"
+  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:pthread>;/home/secondson/Programs/UE_5.7/UnrealEngine/Engine/Source/ThirdParty/libcurl/8.12.1/lib/Unix/x86_64-unknown-linux-gnu/Release/libcurl.a;AWS::aws-crt-cpp;AWS::aws-c-http;AWS::aws-c-mqtt;AWS::aws-c-cal;AWS::aws-c-auth;AWS::aws-c-common;AWS::aws-c-io;AWS::aws-checksums;AWS::aws-c-event-stream;AWS::aws-c-s3;AWS::aws-c-compression;AWS::aws-c-sdkutils;AWS::aws-crt-cpp;\$<LINK_ONLY:ZLIB::ZLIB>"
 )
 
 # Load information for each installed configuration.
