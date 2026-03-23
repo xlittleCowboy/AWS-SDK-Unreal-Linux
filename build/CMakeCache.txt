@@ -121,7 +121,7 @@ BUILD_DEPS:BOOL=ON
 BUILD_HUFFMAN_GENERATOR:BOOL=OFF
 
 //A semi-colon delimited list of the projects to build
-BUILD_ONLY:STRING=cognito-identity;cognito-idp;lambda
+BUILD_ONLY:STRING=cognito-identity;cognito-idp;lambda;s3
 
 //Enables building the open telemetry implementation of tracing
 BUILD_OPTEL:BOOL=OFF
@@ -846,6 +846,15 @@ aws-cpp-sdk-lambda_IS_TOP_LEVEL:STATIC=OFF
 aws-cpp-sdk-lambda_SOURCE_DIR:STATIC=/home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/generated/src/aws-cpp-sdk-lambda
 
 //Value Computed by CMake
+aws-cpp-sdk-s3_BINARY_DIR:STATIC=/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3
+
+//Value Computed by CMake
+aws-cpp-sdk-s3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+aws-cpp-sdk-s3_SOURCE_DIR:STATIC=/home/secondson/Projects/aws-sdk-cpp-all/aws-sdk-cpp/generated/src/aws-cpp-sdk-s3
+
+//Value Computed by CMake
 aws-crt-cpp_BINARY_DIR:STATIC=/home/secondson/Projects/aws-sdk-cpp-all/build/crt/aws-crt-cpp
 
 //Value Computed by CMake
@@ -1076,7 +1085,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

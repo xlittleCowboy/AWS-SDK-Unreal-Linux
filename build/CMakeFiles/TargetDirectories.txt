@@ -117,6 +117,13 @@
 /home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-lambda/CMakeFiles/install.dir
 /home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-lambda/CMakeFiles/install/local.dir
 /home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-lambda/CMakeFiles/install/strip.dir
+/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir
+/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/CMakeFiles/edit_cache.dir
+/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/CMakeFiles/rebuild_cache.dir
+/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/CMakeFiles/list_install_components.dir
+/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/CMakeFiles/install.dir
+/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/CMakeFiles/install/local.dir
+/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/CMakeFiles/install/strip.dir
 /home/secondson/Projects/aws-sdk-cpp-all/build/src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir
 /home/secondson/Projects/aws-sdk-cpp-all/build/src/aws-cpp-sdk-core/CMakeFiles/edit_cache.dir
 /home/secondson/Projects/aws-sdk-cpp-all/build/src/aws-cpp-sdk-core/CMakeFiles/rebuild_cache.dir

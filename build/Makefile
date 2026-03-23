@@ -383,6 +383,19 @@ aws-cpp-sdk-lambda/fast:
 .PHONY : aws-cpp-sdk-lambda/fast
 
 #=============================================================================
+# Target rules for targets named aws-cpp-sdk-s3
+
+# Build rule for target.
+aws-cpp-sdk-s3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aws-cpp-sdk-s3
+.PHONY : aws-cpp-sdk-s3
+
+# fast build rule for target.
+aws-cpp-sdk-s3/fast:
+	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build
+.PHONY : aws-cpp-sdk-s3/fast
+
+#=============================================================================
 # Target rules for targets named aws-cpp-sdk-core
 
 # Build rule for target.
@@ -423,6 +436,7 @@ help:
 	@echo "... aws-cpp-sdk-cognito-idp"
 	@echo "... aws-cpp-sdk-core"
 	@echo "... aws-cpp-sdk-lambda"
+	@echo "... aws-cpp-sdk-s3"
 	@echo "... aws-crt-cpp"
 	@echo "... s2n"
 .PHONY : help

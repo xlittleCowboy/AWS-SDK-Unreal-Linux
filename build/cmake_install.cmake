@@ -60,6 +60,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-cognito-identity/cmake_install.cmake")
   include("/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-cognito-idp/cmake_install.cmake")
   include("/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-lambda/cmake_install.cmake")
+  include("/home/secondson/Projects/aws-sdk-cpp-all/build/generated/src/aws-cpp-sdk-s3/cmake_install.cmake")
   include("/home/secondson/Projects/aws-sdk-cpp-all/build/src/aws-cpp-sdk-core/cmake_install.cmake")
 
 endif()

@@ -24,7 +24,7 @@ cmake ../aws-sdk-cpp \
   -DENABLE_TESTING=OFF \
   -DCMAKE_CXX_STANDARD=20 \
   -DCUSTOM_MEMORY_MANAGEMENT=ON \
-  -DBUILD_ONLY="cognito-identity;cognito-idp;lambda" \
+  -DBUILD_ONLY="cognito-identity;cognito-idp;lambda;s3" \
   -DCMAKE_INSTALL_PREFIX=../install \
   -DAWS_SDK_WARNINGS_ARE_ERRORS=OFF \
   -DBUILD_SHARED_LIBS=OFF \

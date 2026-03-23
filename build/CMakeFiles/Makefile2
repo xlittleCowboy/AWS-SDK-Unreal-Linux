@@ -67,6 +67,7 @@ all: crt/aws-crt-cpp/all
 all: generated/src/aws-cpp-sdk-cognito-identity/all
 all: generated/src/aws-cpp-sdk-cognito-idp/all
 all: generated/src/aws-cpp-sdk-lambda/all
+all: generated/src/aws-cpp-sdk-s3/all
 all: src/aws-cpp-sdk-core/all
 .PHONY : all
 
@@ -75,6 +76,7 @@ codegen: crt/aws-crt-cpp/codegen
 codegen: generated/src/aws-cpp-sdk-cognito-identity/codegen
 codegen: generated/src/aws-cpp-sdk-cognito-idp/codegen
 codegen: generated/src/aws-cpp-sdk-lambda/codegen
+codegen: generated/src/aws-cpp-sdk-s3/codegen
 codegen: src/aws-cpp-sdk-core/codegen
 .PHONY : codegen
 
@@ -83,6 +85,7 @@ preinstall: crt/aws-crt-cpp/preinstall
 preinstall: generated/src/aws-cpp-sdk-cognito-identity/preinstall
 preinstall: generated/src/aws-cpp-sdk-cognito-idp/preinstall
 preinstall: generated/src/aws-cpp-sdk-lambda/preinstall
+preinstall: generated/src/aws-cpp-sdk-s3/preinstall
 preinstall: src/aws-cpp-sdk-core/preinstall
 .PHONY : preinstall
 
@@ -92,6 +95,7 @@ clean: crt/aws-crt-cpp/clean
 clean: generated/src/aws-cpp-sdk-cognito-identity/clean
 clean: generated/src/aws-cpp-sdk-cognito-idp/clean
 clean: generated/src/aws-cpp-sdk-lambda/clean
+clean: generated/src/aws-cpp-sdk-s3/clean
 clean: src/aws-cpp-sdk-core/clean
 .PHONY : clean
 
@@ -447,6 +451,25 @@ generated/src/aws-cpp-sdk-lambda/clean: generated/src/aws-cpp-sdk-lambda/CMakeFi
 .PHONY : generated/src/aws-cpp-sdk-lambda/clean
 
 #=============================================================================
+# Directory level rules for directory generated/src/aws-cpp-sdk-s3
+
+# Recursive "all" directory target.
+generated/src/aws-cpp-sdk-s3/all: generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all
+.PHONY : generated/src/aws-cpp-sdk-s3/all
+
+# Recursive "codegen" directory target.
+generated/src/aws-cpp-sdk-s3/codegen: generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/codegen
+.PHONY : generated/src/aws-cpp-sdk-s3/codegen
+
+# Recursive "preinstall" directory target.
+generated/src/aws-cpp-sdk-s3/preinstall:
+.PHONY : generated/src/aws-cpp-sdk-s3/preinstall
+
+# Recursive "clean" directory target.
+generated/src/aws-cpp-sdk-s3/clean: generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/clean
+.PHONY : generated/src/aws-cpp-sdk-s3/clean
+
+#=============================================================================
 # Directory level rules for directory src/aws-cpp-sdk-core
 
 # Recursive "all" directory target.
@@ -515,7 +538,7 @@ crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/all: crt/aws-crt-cpp/crt/aws-c-event-
 crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/all: crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/all
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/build.make crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/build.make crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=62,63,64,65,66,67,68 "Built target aws-crt-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=62,63,64,65,66,67,68,69 "Built target aws-crt-cpp"
 .PHONY : crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -532,7 +555,7 @@ aws-crt-cpp: crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/rule
 # codegen rule for target.
 crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/build.make crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=62,63,64,65,66,67,68 "Finished codegen for target aws-crt-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=62,63,64,65,66,67,68,69 "Finished codegen for target aws-crt-cpp"
 .PHONY : crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/codegen
 
 # clean rule for target.
@@ -579,12 +602,12 @@ crt/aws-crt-cpp/crt/aws-c-common/CMakeFiles/aws-c-common.dir/clean:
 crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/all:
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/build.make crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/depend
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/build.make crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target s2n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target s2n"
 .PHONY : crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/all
 
 # Build rule for subdir invocation for target.
 crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 0
 .PHONY : crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/rule
@@ -596,7 +619,7 @@ s2n: crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/rule
 # codegen rule for target.
 crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/build.make crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target s2n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Finished codegen for target s2n"
 .PHONY : crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/codegen
 
 # clean rule for target.
@@ -645,7 +668,7 @@ crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/all: crt/aws-crt-cpp/crt/s2
 crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/all: crt/aws-crt-cpp/crt/aws-c-cal/CMakeFiles/aws-c-cal.dir/all
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/build.make crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/depend
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/build.make crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=32,33,34,35,36 "Built target aws-c-io"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=31,32,33,34,35,36 "Built target aws-c-io"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/all
 
 # Build rule for subdir invocation for target.
@@ -662,7 +685,7 @@ aws-c-io: crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/rule
 # codegen rule for target.
 crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/build.make crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=32,33,34,35,36 "Finished codegen for target aws-c-io"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=31,32,33,34,35,36 "Finished codegen for target aws-c-io"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/codegen
 
 # clean rule for target.
@@ -745,12 +768,12 @@ crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/all: crt/aws-crt-cpp/cr
 crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/all: crt/aws-crt-cpp/crt/aws-c-compression/CMakeFiles/aws-c-compression.dir/all
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/build.make crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/depend
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/build.make crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=26,27,28,29,30,31 "Built target aws-c-http"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=26,27,28,29,30 "Built target aws-c-http"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/all
 
 # Build rule for subdir invocation for target.
 crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 61
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 60
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 0
 .PHONY : crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/rule
@@ -762,7 +785,7 @@ aws-c-http: crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/rule
 # codegen rule for target.
 crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/build.make crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=26,27,28,29,30,31 "Finished codegen for target aws-c-http"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=26,27,28,29,30 "Finished codegen for target aws-c-http"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/codegen
 
 # clean rule for target.
@@ -788,7 +811,7 @@ crt/aws-crt-cpp/crt/aws-c-auth/CMakeFiles/aws-c-auth.dir/all: crt/aws-crt-cpp/cr
 
 # Build rule for subdir invocation for target.
 crt/aws-crt-cpp/crt/aws-c-auth/CMakeFiles/aws-c-auth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crt/aws-crt-cpp/crt/aws-c-auth/CMakeFiles/aws-c-auth.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 0
 .PHONY : crt/aws-crt-cpp/crt/aws-c-auth/CMakeFiles/aws-c-auth.dir/rule
@@ -820,12 +843,12 @@ crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/all: crt/aws-crt-cpp/cr
 crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/all: crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/all
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/build.make crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/depend
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/build.make crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=37,38,39,40,41 "Built target aws-c-mqtt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=37,38,39,40 "Built target aws-c-mqtt"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/all
 
 # Build rule for subdir invocation for target.
 crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 0
 .PHONY : crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/rule
@@ -837,7 +860,7 @@ aws-c-mqtt: crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/rule
 # codegen rule for target.
 crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/build.make crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=37,38,39,40,41 "Finished codegen for target aws-c-mqtt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=37,38,39,40 "Finished codegen for target aws-c-mqtt"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/codegen
 
 # clean rule for target.
@@ -928,7 +951,7 @@ crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/all: crt/aws-crt-cpp/crt/aw
 crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/all: crt/aws-crt-cpp/crt/aws-checksums/CMakeFiles/aws-checksums.dir/all
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/build.make crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/depend
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/build.make crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=42,43,44,45 "Built target aws-c-s3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=41,42,43,44,45 "Built target aws-c-s3"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -945,7 +968,7 @@ aws-c-s3: crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/rule
 # codegen rule for target.
 crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/build.make crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=42,43,44,45 "Finished codegen for target aws-c-s3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=41,42,43,44,45 "Finished codegen for target aws-c-s3"
 .PHONY : crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/codegen
 
 # clean rule for target.
@@ -1018,12 +1041,12 @@ generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/all
 generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/all: src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/all
 	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/build.make generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/depend
 	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/build.make generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=50 "Built target aws-cpp-sdk-cognito-idp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num= "Built target aws-cpp-sdk-cognito-idp"
 .PHONY : generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/all
 
 # Build rule for subdir invocation for target.
 generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 0
 .PHONY : generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/rule
@@ -1035,7 +1058,7 @@ aws-cpp-sdk-cognito-idp: generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cp
 # codegen rule for target.
 generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/build.make generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=50 "Finished codegen for target aws-cpp-sdk-cognito-idp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num= "Finished codegen for target aws-cpp-sdk-cognito-idp"
 .PHONY : generated/src/aws-cpp-sdk-cognito-idp/CMakeFiles/aws-cpp-sdk-cognito-idp.dir/codegen
 
 # clean rule for target.
@@ -1063,12 +1086,12 @@ generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/all: crt/aws-
 generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/all: src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/all
 	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/build.make generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/depend
 	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/build.make generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num= "Built target aws-cpp-sdk-lambda"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=61 "Built target aws-cpp-sdk-lambda"
 .PHONY : generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/all
 
 # Build rule for subdir invocation for target.
 generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 99
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 100
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 0
 .PHONY : generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/rule
@@ -1080,13 +1103,58 @@ aws-cpp-sdk-lambda: generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lamb
 # codegen rule for target.
 generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/build.make generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num= "Finished codegen for target aws-cpp-sdk-lambda"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=61 "Finished codegen for target aws-cpp-sdk-lambda"
 .PHONY : generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/codegen
 
 # clean rule for target.
 generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/clean:
 	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/build.make generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/clean
 .PHONY : generated/src/aws-cpp-sdk-lambda/CMakeFiles/aws-cpp-sdk-lambda.dir/clean
+
+#=============================================================================
+# Target rules for target generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir
+
+# All Build rule for target.
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-common/CMakeFiles/aws-c-common.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-sdkutils/CMakeFiles/aws-c-sdkutils.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-cal/CMakeFiles/aws-c-cal.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-compression/CMakeFiles/aws-c-compression.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-auth/CMakeFiles/aws-c-auth.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-checksums/CMakeFiles/aws-checksums.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-event-stream/CMakeFiles/aws-c-event-stream.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/all
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all: src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/all
+	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/depend
+	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num= "Built target aws-cpp-sdk-s3"
+.PHONY : generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all
+
+# Build rule for subdir invocation for target.
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 99
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles 0
+.PHONY : generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/rule
+
+# Convenience name for target.
+aws-cpp-sdk-s3: generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/rule
+.PHONY : aws-cpp-sdk-s3
+
+# codegen rule for target.
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num= "Finished codegen for target aws-cpp-sdk-s3"
+.PHONY : generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/codegen
+
+# clean rule for target.
+generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/build.make generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/clean
+.PHONY : generated/src/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/clean
 
 #=============================================================================
 # Target rules for target src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir
@@ -1107,7 +1175,7 @@ src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/all: crt/aws-crt-cpp/crt/aw
 src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/all: crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/all
 	$(MAKE) $(MAKESILENT) -f src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61 "Built target aws-cpp-sdk-core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60 "Built target aws-cpp-sdk-core"
 .PHONY : src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1124,7 +1192,7 @@ aws-cpp-sdk-core: src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/rule
 # codegen rule for target.
 src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/build.make src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61 "Finished codegen for target aws-cpp-sdk-core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/secondson/Projects/aws-sdk-cpp-all/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60 "Finished codegen for target aws-cpp-sdk-core"
 .PHONY : src/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/codegen
 
 # clean rule for target.
